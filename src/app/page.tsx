@@ -1,6 +1,9 @@
-import { Box } from "@mui/material";
-import Image from "next/image";
+import { Box, Button } from "@mui/material";
 
 export default function Home() {
-  return <Box component="main"></Box>;
+  return (
+    <Box component="main">
+      <Button variant="nav">Contained</Button>
+    </Box>
+  );
 }
