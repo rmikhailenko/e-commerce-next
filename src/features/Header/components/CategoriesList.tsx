@@ -1,14 +1,6 @@
 "use client";
 
-import {
-  Box,
-  Button,
-  List,
-  ListItemButton,
-  ListItemText,
-  Menu,
-  MenuItem,
-} from "@mui/material";
+import { Box, Button, List, ListItemText, Menu, MenuItem } from "@mui/material";
 import { useState } from "react";
 import MenuIcon from "./MenuIcon";
 
@@ -56,6 +48,11 @@ export default function CategoriesList() {
         slotProps={{
           list: {
             "aria-labelledby": "categories-button",
+          },
+          paper: {
+            sx: {
+              boxShadow: 1,
+            },
           },
         }}
         anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
