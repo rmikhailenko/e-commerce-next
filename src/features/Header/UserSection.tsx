@@ -15,9 +15,8 @@ export default function UserSection() {
     >
       <ThemeToggle />
       <Box sx={{ display: "flex", gap: 1.5 }}>
-        <AccountIcon />
-
-        <BasketIcon />
+        <AccountIcon color="secondary" />
+        <BasketIcon color="secondary" />
       </Box>
     </Box>
   );
