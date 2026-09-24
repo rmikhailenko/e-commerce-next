@@ -1,10 +1,5 @@
-import Categories from "@/features/Shop/components/Categories";
 import { Box } from "@mui/material";
 
 export default function Home() {
-  return (
-    <Box component="main">
-      <Categories />
-    </Box>
-  );
+  return <Box component="main"></Box>;
 }

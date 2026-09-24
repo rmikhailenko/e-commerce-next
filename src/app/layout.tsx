@@ -3,7 +3,6 @@ import type { ReactNode } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 
 import "./globals.css";
-import Header from "@/features/Header/components/Header";
 import ThemeRegistry from "@/theme/ThemeRegistry";
 
 const geistSans = Geist({
@@ -16,14 +15,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: "Northstar Market",
-    template: "%s | Northstar Market",
-  },
-  description: "A considered collection of everyday goods.",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{ children: ReactNode }>) {
@@ -34,10 +25,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">
-        <ThemeRegistry>
-          <Header />
-          {children}
-        </ThemeRegistry>
+        <ThemeRegistry>{children}</ThemeRegistry>
       </body>
     </html>
   );
