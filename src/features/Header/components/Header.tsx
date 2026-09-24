@@ -1,8 +1,8 @@
 import { Box } from "@mui/material";
-import Navigation from "./Navigation";
-import Logo from "./components/Logo";
-import UserSection from "./UserSection";
-import CategoriesControl from "./components/CategoriesControl";
+import Navigation from "../components/Navigation";
+import Logo from "./Logo";
+import UserSection from "../components/UserSection";
+import CategoriesControl from "./CategoriesControl";
 
 export default function Header() {
   return (

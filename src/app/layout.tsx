@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
-import { AppRouterCacheProvider } from "@mui/material-nextjs/v16-appRouter";
-import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 
-import theme from "@/theme";
 import "./globals.css";
-import Header from "@/features/Header/Header";
+import Header from "@/features/Header/components/Header";
+import ThemeRegistry from "@/theme/ThemeRegistry";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,15 +34,10 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">
-        <AppRouterCacheProvider options={{ key: "mui" }}>
-          <ThemeProvider theme={theme}>
-            <CssBaseline />
-            <Box sx={{ px: "20px" }}>
-              <Header />
-              {children}
-            </Box>
-          </ThemeProvider>
-        </AppRouterCacheProvider>
+        <ThemeRegistry>
+          <Header />
+          {children}
+        </ThemeRegistry>
       </body>
     </html>
   );

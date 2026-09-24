@@ -1,7 +1,7 @@
 import ThemeToggle from "@/theme/components/ThemeToggle";
 import { Box } from "@mui/material";
-import BasketIcon from "./components/BasketIcon";
-import AccountIcon from "./components/AccountIcon";
+import BasketIcon from "./BasketIcon";
+import AccountIcon from "./AccountIcon";
 
 export default function UserSection() {
   return (
