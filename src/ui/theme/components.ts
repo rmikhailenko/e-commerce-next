@@ -1,6 +1,12 @@
 import { Components } from "@mui/material";
 import { Theme } from "@mui/material/styles";
 
+declare module "@mui/material/styles" {
+  interface ButtonPropsColorOverrides {
+    dark: string;
+  }
+}
+
 export const components: Components<Omit<Theme, "components">> = {
   MuiButton: {
     styleOverrides: {

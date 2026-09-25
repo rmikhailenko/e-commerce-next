@@ -9,6 +9,7 @@ declare module "@mui/material/styles" {
   interface TypeText {
     brand: string;
     white: string;
+    grey: string;
   }
 }
 
@@ -21,10 +22,9 @@ export const lightPalette: PaletteOptions = {
     dark: "#059669",
     contrastText: "#0f172a",
   },
-
   background: {
     default: "#ffffff",
-    dark: "#020617",
+    dark: "#172023",
     grey: alpha("#ffffff", 0.05),
   },
   text: {
@@ -32,5 +32,6 @@ export const lightPalette: PaletteOptions = {
     secondary: alpha("#172023", 0.5),
     brand: "#07BE8A",
     white: "#ffffff",
+    grey: alpha("#ffffff", 0.4),
   },
 };
