@@ -1,5 +1,4 @@
 import Gradient from "@/features/Gradient/Gradient";
-import HeroSection from "@/features/HeroSection/HeroSection";
 import { Box } from "@mui/material";
 
 export default function Home() {

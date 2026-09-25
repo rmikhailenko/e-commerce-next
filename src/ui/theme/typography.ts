@@ -1,6 +1,7 @@
 import { TypographyVariantsOptions } from "@mui/material/styles";
 
 export const typography: TypographyVariantsOptions = {
+  fontFamily: "--font-bricolage-grotesque",
   h1: {
     fontSize: "96px",
     fontWeight: 600,
@@ -8,7 +9,7 @@ export const typography: TypographyVariantsOptions = {
   },
   h2: {
     fontSize: "52px",
-    fontWeight: 600,
+    fontWeight: 500,
     lineHeight: 1.2,
   },
   h3: {

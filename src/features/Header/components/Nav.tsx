@@ -8,7 +8,6 @@ import { useState } from "react";
 import { Button, List, ListItem, Typography } from "@mui/material";
 import MenuIcon from "./MenuIcon";
 import CloseMenuIcon from "./CloseMenuIcon";
-import { useIsLanding } from "@/hooks/useIsLanding";
 
 const NAV_LINKS = [
   { label: "Home", href: "/" },
@@ -48,8 +47,7 @@ export function Nav() {
         slotProps={{
           paper: {
             sx: {
-              width: { xs: "100%", sm: "775px" },
-              // bgcolor: "#111318",
+              width: { xs: "100%", sm: "475px" },
               bgcolor: "background.dark",
               p: 4,
             },

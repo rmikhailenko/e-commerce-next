@@ -12,6 +12,8 @@ export default function Header() {
         alignItems: "center",
         px: "260px",
         py: "40px",
+        position: "relative",
+        zIndex: 10,
       }}
     >
       <Logo />
