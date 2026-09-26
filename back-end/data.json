@@ -1,0 +1,186 @@
+{
+  "properties": [
+    {
+      "id": "apt-001",
+      "title": "Parkside Light-Filled Apartment",
+      "address": "New York, 128 West 72nd Street",
+      "price": "$425,000",
+      "bedroom": 2,
+      "bathroom": 2,
+      "area": 118
+    },
+    {
+      "id": "apt-002",
+      "title": "Brooklyn Heights Corner Apartment",
+      "address": "Brooklyn, 45 Orange Street",
+      "price": "$685,000",
+      "bedroom": 3,
+      "bathroom": 2,
+      "area": 156
+    },
+    {
+      "id": "apt-003",
+      "title": "Sunny Studio Near the Waterfront",
+      "address": "Jersey City, 92 Greene Street",
+      "price": "$185,000",
+      "bedroom": 1,
+      "bathroom": 1,
+      "area": 92
+    },
+    {
+      "id": "apt-004",
+      "title": "Classic Upper West Side Residence",
+      "address": "New York, 310 Amsterdam Avenue",
+      "price": "$795,000",
+      "bedroom": 4,
+      "bathroom": 3,
+      "area": 198
+    },
+    {
+      "id": "apt-005",
+      "title": "Quiet Garden-Level Apartment",
+      "address": "Queens, 24-18 34th Avenue",
+      "price": "$315,000",
+      "bedroom": 2,
+      "bathroom": 1,
+      "area": 104
+    },
+    {
+      "id": "apt-006",
+      "title": "Spacious Three-Bedroom City Home",
+      "address": "Brooklyn, 811 Union Street",
+      "price": "$560,000",
+      "bedroom": 3,
+      "bathroom": 2,
+      "area": 172
+    },
+    {
+      "id": "apt-007",
+      "title": "Modern Midtown Apartment",
+      "address": "New York, 220 East 39th Street",
+      "price": "$475,000",
+      "bedroom": 2,
+      "bathroom": 1,
+      "area": 110
+    },
+    {
+      "id": "apt-008",
+      "title": "Renovated Brownstone Flat",
+      "address": "Brooklyn, 173 St. Marks Avenue",
+      "price": "$625,000",
+      "bedroom": 3,
+      "bathroom": 2,
+      "area": 148
+    },
+    {
+      "id": "apt-009",
+      "title": "Compact City Studio",
+      "address": "New York, 56 West 45th Street",
+      "price": "$145,000",
+      "bedroom": 1,
+      "bathroom": 1,
+      "area": 90
+    },
+    {
+      "id": "apt-010",
+      "title": "Bright Corner Residence",
+      "address": "Queens, 37-20 84th Street",
+      "price": "$385,000",
+      "bedroom": 2,
+      "bathroom": 2,
+      "area": 126
+    },
+    {
+      "id": "apt-011",
+      "title": "Top-Floor Family Apartment",
+      "address": "Brooklyn, 402 7th Avenue",
+      "price": "$735,000",
+      "bedroom": 4,
+      "bathroom": 3,
+      "area": 190
+    },
+    {
+      "id": "apt-012",
+      "title": "Waterfront View Apartment",
+      "address": "Jersey City, 88 Morgan Street",
+      "price": "$545,000",
+      "bedroom": 3,
+      "bathroom": 2,
+      "area": 160
+    },
+    {
+      "id": "apt-013",
+      "title": "Charming Harlem Apartment",
+      "address": "New York, 15 West 127th Street",
+      "price": "$265,000",
+      "bedroom": 2,
+      "bathroom": 1,
+      "area": 102
+    },
+    {
+      "id": "apt-014",
+      "title": "Elegant Three-Bedroom Residence",
+      "address": "Queens, 31-15 34th Street",
+      "price": "$490,000",
+      "bedroom": 3,
+      "bathroom": 2,
+      "area": 174
+    },
+    {
+      "id": "apt-015",
+      "title": "Classic Prewar Apartment",
+      "address": "New York, 505 West 110th Street",
+      "price": "$810,000",
+      "bedroom": 5,
+      "bathroom": 3,
+      "area": 200
+    },
+    {
+      "id": "apt-016",
+      "title": "West Village One-Bedroom",
+      "address": "New York, 74 Christopher Street",
+      "price": "$355,000",
+      "bedroom": 1,
+      "bathroom": 1,
+      "area": 96
+    },
+    {
+      "id": "apt-017",
+      "title": "Spacious Park Slope Apartment",
+      "address": "Brooklyn, 219 8th Street",
+      "price": "$695,000",
+      "bedroom": 4,
+      "bathroom": 2,
+      "area": 182
+    },
+    {
+      "id": "apt-018",
+      "title": "Affordable Queens Residence",
+      "address": "Queens, 98-12 63rd Road",
+      "price": "$205,000",
+      "bedroom": 2,
+      "bathroom": 1,
+      "area": 108
+    },
+    {
+      "id": "apt-019",
+      "title": "Large Family City Apartment",
+      "address": "New York, 180 East 88th Street",
+      "price": "$875,000",
+      "bedroom": 6,
+      "bathroom": 3,
+      "area": 196
+    },
+    {
+      "id": "apt-020",
+      "title": "Sunlit Astoria Apartment",
+      "address": "Queens, 30-45 35th Street",
+      "price": "$420,000",
+      "bedroom": 3,
+      "bathroom": 2,
+      "area": 144
+    }
+  ],
+  "insights": [],
+  "contacts": []
+}
